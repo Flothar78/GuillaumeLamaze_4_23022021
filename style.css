@@ -361,6 +361,9 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+.img-responsive .portfolio-thumb {
+  margin:auto;
+}
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -679,7 +682,28 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
+}
+
+.texte-remplace-photo-texte p {
+  font-size: 22px;
+  text-align: center;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.citation-maxime-guibard p {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.titre-citation-maxime-guibard p {
+  text-align: center;
+  font-size: 14px ;
 }
 
 .tight-width-whitespace {
@@ -743,6 +767,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  margin: auto;
 }
 
 .portfolio-row {
